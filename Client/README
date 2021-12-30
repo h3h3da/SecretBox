@@ -1,0 +1,4 @@
+1. pip3 install -r requirements.txt
+2. python3 register.py
+3. 收消息：在一个单独的命令行窗口执行 python3 get.py，执行完后没有反应（不用管），进程会在后台执行，有消息会打印出来
+4. 发消息：打开一个新的命令行窗口执行 python3 post.py，根据提示选择 1 查看用户列表，选择 2 发送消息，先输入user id， 然后输入消息发送。
